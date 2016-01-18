@@ -205,6 +205,12 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
+    "calculator",
+    "chat",
+    "robot",
+    "auto_leave",
+    "info",
+    "plugins",
     "inrealm",
     "ingroup",
     "inpm",
