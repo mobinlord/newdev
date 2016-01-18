@@ -20,6 +20,9 @@ end
 if msg.text == "mamshotak" then
  return "ba na pedarim chikar dari"
 end
+if msg.text == "Mamshotak" then
+ return "ba na pedarim chikar dari"
+end
 if msg.text == "Shahab" then
  return "ba baba joonam chikar dari"
 end
@@ -58,6 +61,7 @@ return {
   "^[Ss]hahab$",
   "^SHAHAB",
   "^[Bb]ot$",
+  "^[Mm]amshotak$",
   "^[Pp]aradox$",
   "^[Bb]ye$",
   "^?$",
