@@ -357,6 +357,10 @@ return group id or user id
 
 !help
 
+!bot on
+!bot off
+On and off bot in youre group
+
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
