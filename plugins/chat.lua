@@ -17,11 +17,11 @@ end
 if msg.text == "salam" then
  return "va aleykol asalam"
 end
-if msg.text == "mamshotak" then
- return "ba na pedarim chikar dari"
+if msg.text == "ZAC" then
+ return "kose nanash"
 end
-if msg.text == "Mamshotak" then
- return "ba na pedarim chikar dari"
+if msg.text == "zac" then
+ return "kose nanash"
 end
 if msg.text == "Zac" then
  return "kose nanash"
@@ -32,17 +32,26 @@ end
 if msg.text == "shahab" then
  return "Ba babam chikar dari"
 end
-if msg.text == "Paradox" then
+if msg.text == " Hell" then
  return "Yes?"
 end
-if msg.text == "paradox" then
+if msg.text == "hell" then
  return "What?"
+end
+if msg.text == "HELL" then
+ return "Jan?"
 end
 if msg.text == "bot" then
  return "hum?"
 end
 if msg.text == "Bot" then
  return "Huuuum?"
+end
+if msg.text == "Sudo" then
+ return "The Sudo user off bot is @Shahabambesik"
+end
+if msg.text == "sudo" then
+ return "The Sudo user off bot is @Shahabambesik"
 end
 if msg.text == "?" then
  return "Hum??"
@@ -63,11 +72,14 @@ return {
   "^[Hh]ello$",
   "^[Ss]hahab$",
   "^SHAHAB",
+  "^ZAC",
   "^[Bb]ot$",
   "^[Zz]ac$",
   "^[Mm]amshotak$",
-  "^[Pp]aradox$",
+  "^[Hh]ell",
+  "^HELL",
   "^[Bb]ye$",
+   "^[Ss]udo$",
   "^?$",
   "^[Ss]alam$",
   }, 
